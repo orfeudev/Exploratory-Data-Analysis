@@ -38,7 +38,7 @@
 
 ## 1.2 Variáveis Numéricas:
 
- As Variáveis Numéricas, também chamadas de Quantitativas, representam os atributos mensuráveis dos indivíduos, como altura, peso, idade, temperatura, salário, entre outros. Esse tipo de variável é subdividido em dois subgrupos: discretas e contínuas, para facilitar a organização e análise dos dados. Veremos esses subtipos a seguir:
+ As variáveis numéricas, também chamadas de quantitativas, representam os atributos mensuráveis dos indivíduos, como altura, peso, idade, temperatura, salário, entre outros. Esse tipo de variável é subdividido em dois subgrupos: discretas e contínuas, para facilitar a organização e análise dos dados. Veremos esses subtipos a seguir:
 
 ### 1.2.1 Variáveis Numéricas Discretas:
 
@@ -68,9 +68,34 @@
  É possível ter valores fracionados ou decimais entre as categorias dessas variáveis.  
  A variável ID não é uma variável numérica contínua.
 
-## 2. A Variável ID:
-
+## 2. Tipos especiais de variáveis
+### 2.1 A variável ID
  A variável ID é categórica, mais especificamente, uma variável categórica nominal. Embora frequentemente representada por números, ela não tem valor quantitativo nem hierarquia. Sua principal função é identificar de maneira única os registros no conjunto de dados, sem ser usada em análises matemáticas ou quantitativas. Mesmo sendo numérica, a variável ID é categórica, pois seus valores são apenas rótulos para distinguir registros, sem significado numérico ou ordem.
+ 
+ 
+ 
+**Subgrupo:** **Nominais**.
+ 
+---
+
+### 2.2 Variáveis Dicotômicas
+
+ Existe um tipo de variável em que o valor pode assumir apenas duas realizações, são chamadas de variáveis dicotômicas, têm **duas categorias** e pertencem às **variáveis categóricas nominais**. Exemplos incluem "sim" ou "não".
+
+### Exemplo:
+
+| ID  | Aprovado | Completou o curso |
+| --- | -------- | ----------------- |
+| 01  | Sim      | Não               |
+| 02  | Não      | Sim               |
+| 03  | Não      | Não               |
+| 04  | Sim      | Sim               |
+| 05  | Sim      | Não               |
+
+
+**Subgrupo:** **Nominais**.
+
+---
 
 ---
 ## 3. Escalas de medidas:
@@ -78,7 +103,7 @@
 
 ---
 ### 3.1 Escala Nominal
-É qualitativa é a mais básica das escalas de medidas. As realizações representam diferentes categorias, não há hierarquia ou relação entre estes valores. Não é possível fazer cálculos ou comparações quantitativas.  
+ É qualitativa é a mais básica das escalas de medidas. As realizações representam diferentes categorias, não há hierarquia ou relação entre estes valores. Não é possível fazer cálculos ou comparações quantitativas.  
 **Exemplos:** Cores favoritas, gênero, estado civil.
 
 | ID  | Cor Favorita | Gênero     | Estado Civil |
@@ -97,7 +122,7 @@
 ---
 
 ### 3.2 Escala Ordinal
-Os dados nesta escala possuem uma ordem natural entre as categorias, mas a diferença entre os níveis não pode ser medida de forma exata. Embora as categorias possam ser classificadas seguindo uma sequência, a distância entre elas não tem um valor numérico específico.  
+ Os dados nesta escala possuem uma ordem natural entre as categorias, mas a diferença entre os níveis não pode ser medida de forma exata. Embora as categorias possam ser classificadas seguindo uma sequência, a distância entre elas não tem um valor numérico específico.  
 **Exemplos:** Nível de satisfação, escolaridade, classes sociais.
 
 | ID  | Nível de Satisfação | Escolaridade | Classe Social |
@@ -117,7 +142,7 @@ Os dados nesta escala possuem uma ordem natural entre as categorias, mas a difer
 ---
 
 ### 3.3 Escala Intervalar
-Nesta escala, os valores numéricos possuem intervalos consistentes entre si, mas não existe um ponto zero absoluto. Isso significa que, embora seja possível medir as diferenças entre os valores, não se pode fazer cálculos de proporções.  
+ Nesta escala, os valores numéricos possuem intervalos consistentes entre si, mas não existe um ponto zero absoluto. Isso significa que, embora seja possível medir as diferenças entre os valores, não se pode fazer cálculos de proporções.  
 **Exemplos:** Temperatura (em Celsius ou Fahrenheit), anos em um calendário.
 
 | ID  | Temperatura (°C) | Ano         | Hora do Dia |
@@ -137,7 +162,7 @@ Nesta escala, os valores numéricos possuem intervalos consistentes entre si, ma
 ---
 
 ### 3.4 Escala de Razão
-A escala de razão é a mais completa, pois os valores numéricos têm um ponto zero verdadeiro, permitindo a realização de todas as operações matemáticas. Com ela, é possível calcular proporções entre os dados.  
+ A escala de razão é a mais completa, pois os valores numéricos têm um ponto zero verdadeiro, permitindo a realização de todas as operações matemáticas. Com ela, é possível calcular proporções entre os dados.  
 **Exemplos:** Peso, altura, distância, salário.
 
 | ID  | Altura (cm) | Peso (kg) | Distância (km) |
@@ -164,5 +189,40 @@ A escala de razão é a mais completa, pois os valores numéricos têm um ponto 
 | Ordinal    | Sim   | Não                     | Não             | Satisfação, escolaridade          | Gráfico de barras, gráfico de barras horizontais, box plot |
 | Intervalar | Sim   | Sim                     | Não             | Temperatura (°C, °F), anos        | Gráfico de linhas, gráfico de barras, histograma    |
 | Razão      | Sim   | Sim                     | Sim             | Peso, altura, idade               | Gráfico de barras, gráfico de linhas, histograma, box plot |
+
+---
+
+### 3.6 Escalas Likert
+
+A escala Likert é uma forma de mensurar opiniões, sentimentos, nível de satisfação ou atitudes de um grupo de indivíduos. Normalmente, o questionário contém respostas que indicam o nível de concordância do participante com o que está sendo questionado. As escalas Likert são escalas **ordinais** e suas respostas são geralmente ordenadas em 5 ou 7 pontos.
+
+### Exemplo:
+
+| ID  | Afirmação                           | Resposta                    |
+| --- | ------------------------------------ | --------------------------- |
+| 01  | "Estou satisfeito com meu trabalho"  | Concordo totalmente         |
+| 02  | "A qualidade do atendimento é boa"   | Concordo parcialmente       |
+| 03  | "O ambiente de trabalho é acolhedor" | Neutro                      |
+| 04  | "A carga de trabalho é excessiva"    | Discordo parcialmente       |
+| 05  | "Eu recomendaria a empresa"          | Discordo totalmente         |
+
+**Subgrupo:** Escala **Ordinal**.
+
+---
+### 3.7 Conversão entre Escalas
+
+Converter uma variável de uma escala para outra pode ser desafiador, pois a conversão de **escala ordinal** para **intervalar** pode levar a distorções, já que as distâncias entre os valores não são precisas e os valores muitas vezes são atribuídos de forma indiscriminada.
+
+### Exemplo:
+
+| ID  | Grau de Satisfação (Ordinal) | Valor Numérico (Intervalar) |
+| --- | ---------------------------- | --------------------------- |
+| 01  | Muito Satisfeito             | 5                           |
+| 02  | Neutro                       | 3                           |
+| 03  | Insatisfeito                 | 2                           |
+| 04  | Satisfeito                   | 4                           |
+| 05  | Extremamente insatisfeito    | 1                           |
+
+**Subgrupo:** **Ordinal para Intervalar**.
 
 
