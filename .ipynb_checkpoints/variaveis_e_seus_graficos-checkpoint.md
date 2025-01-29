@@ -89,7 +89,7 @@
 
 ### 2.2 Variáveis Dicotômicas
 
- Existe um tipo de variável em que o valor pode assumir apenas duas realizações, são chamadas de variáveis dicotômicas, têm **duas categorias** e pertencem às **variáveis categóricas nominais**. Exemplos incluem "sim" ou "não".
+ Dentro do escopo das variáveis categóricas nominais, existe um subtipo de variável cujo valor de suas possíveis realizações podem assumir apenas **duas categorias**. As chamamos de variáveis dicotômicas e o seu exemplo mais simples incluem perguntas que só podem ser respondidas com "sim" ou "não". Normalmente, os valores assumidos em suas possíveis realizações são mútuamente exclusivos.
 
 ### Exemplo:
 
@@ -203,7 +203,22 @@
 
 ### 3.6 Escalas Likert
 
-A escala Likert é uma forma de mensurar opiniões, sentimentos, nível de satisfação ou atitudes de um grupo de indivíduos. Normalmente, o questionário contém respostas que indicam o nível de concordância do participante com o que está sendo questionado. As escalas Likert são escalas **ordinais** e suas respostas são geralmente ordenadas em 5 ou 7 pontos.
+ A escala Likert é uma ferramenta extremamente útil para capturar, mensurar e analisar opiniões, sentimentos, níveis de satisfação ou atitudes de um grupo de indivíduos. Esta abordagem é necessária porque sentimentos e atitudes são difíceis de quantificar de forma objetiva. Normalmente, o questionário apresenta respostas que indicam o nível de concordância do participante com a afirmativa proposta. As escalas Likert são ordinais, com respostas geralmente organizadas em 5 pontos, embora também possam ser usadas com 4, 7 ou mais pontos, dependendo da necessidade da pesquisa. Este tipo de escala é muito útil para medir aspectos subjetivos, como sentimentos, que não podem ser facilmente expressos em números, mas que podem ser analisados de forma eficaz usando essa abordagem.
+
+Vamos comparar:
+Questionário de Satisfação no Trabalho  
+
+ 1. De 0 a 10, o quanto você está satisfeito com o seu trabalho?
+**( ) 0  ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5  ( ) 6  ( ) 7  ( ) 8  ( ) 9  ( ) 10**  
+
+ 2. "Estou satisfeito com o meu trabalho."  
+- [ ] Discordo totalmente  
+- [ ] Discordo  
+- [ ] Nem concordo nem discordo  
+- [ ] Concordo  
+- [ ] Concordo totalmente
+
+Levando em consideração que a diferença entre números não é tão clara neste contexto, é possível afirmar que se tratando do exemplo 01 um indivíduo ao responder este questionário terá dificuldade em quantificar seus sentimentos. No entando, quando utilizamos a escala Likert(exemplo 02) que utiliza respostas em níveis de satisfação torna-se possível captar de forma mais específica o que se deseja saber de um indvíduo.
 
 ### Exemplo:
 
