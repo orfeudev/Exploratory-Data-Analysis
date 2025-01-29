@@ -108,7 +108,7 @@
 
 ---
 ## 3. Escalas de medidas:
- No universo em que vivemos, cada uma das coisas que existem podem ser mensuradas seguindo os princípios de sua natureza, a imensa capacidade humana de observar o universo e encontrar padrões é provavelmente a melhor ferramenta conhecida para se analisar e entender a natureza da realidade física a qual estamos inseridos. Podemos tomar como exemplo a temperatura de um paciente, a distância até uma estrela, o tempo de vida médio de um ser humano, o número de grãos de areia em uma praia, a cor favorita de um indivíduo ou até mesmo **o grau de felicidade de alguém por ter vindo ao mundo**. Existem diversas formas de mensurar as variáveis, chamamos estes níveis de **Escalas de Medida**. As técnicas estatísticas usadas para analisar uma variável e forma como os dados são representados dependem da forma como a variável é medida. Veremos a seguir os quatro níveis de mensuração das variáveis.
+ No universo em que vivemos, cada uma das coisas que existem podem ser mensuradas seguindo os princípios de sua natureza, a imensa capacidade humana de observar o universo e encontrar padrões é provavelmente a melhor ferramenta conhecida para se analisar e entender a natureza física em que estamos inseridos. Podemos tomar como exemplo a temperatura de um paciente, a distância até uma estrela, o tempo de vida médio de um ser humano, o número de grãos de areia em uma praia, a cor favorita de um indivíduo ou até mesmo **o grau de felicidade de alguém por ter vindo ao mundo**. Existem diversas formas de mensurar as variáveis, chamamos estes níveis de **Escalas de Medida**. As técnicas estatísticas usadas para analisar uma variável e forma como os dados são representados dependem da forma como a variável é medida. Veremos a seguir os quatro níveis de mensuração das variáveis.
 
 ---
 ### 3.1 Escala Nominal
@@ -220,7 +220,7 @@ A escala Likert é uma forma de mensurar opiniões, sentimentos, nível de satis
 ---
 ### 3.7 Conversão entre Escalas
 
-Converter uma variável de uma escala para outra pode ser desafiador, pois a conversão de **escala ordinal** para **intervalar** pode levar a distorções, já que as distâncias entre os valores não são precisas e os valores muitas vezes são atribuídos de forma indiscriminada.
+Converter uma variável de uma escala para outra pode necessita de bastante cautela, pois a conversão de **escala ordinal** para **intervalar** pode levar a distorções, já que as distâncias entre os valores não são precisas e os valores muitas vezes são atribuídos de forma indiscriminada.
 
 ### Exemplo:
 
