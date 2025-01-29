@@ -1,15 +1,16 @@
-> "If I have seen further, it is by standing on the shoulders of giants."  
-> — Sir Isaac Newton
+
+
+# Uma breve reflexão
+ Existimos em um universo de grandeza infinita quando se olha através de olhos humanos. Na história da construção da ciência e da matemática, muitos de nós nos preocupamos em estudar as maiores partes do cosmo, enquanto outros buscaram entender as minúsculas coisas que se espalham por aí. Contudo, a maior parte daqueles que se dedicaram a entender os mistérios da existência aplicaram continuamente seu tempo de vida quantificando ou encontrando meios de quantificar essas parcelas do universo, a fim de tentar entender melhor a realidade em que estamos inseridos.
+
+ Organizar o universo em dados quantificáveis é provavelmente a tarefa mais antiga e intelectualmente desafiadora à qual a humanidade se propôs. Desde o início de nossa existência, somos compelidos a tentar entender o lugar onde nascemos e passamos a existir. A organização das parcelas da existência em dados pode parecer uma tarefa hercúlea e impossível, mas neste artigo gostaria de compartilhar alguns dos métodos e técnicas que a humanidade encontrou para facilitar esse processo.
+
+> "There is a single light of science, and to brighten it anywhere is to brighten it everywhere."
+> — Isaac Asimov
 > 
 ---
 
-# Uma breve reflexão
- Existimos em um universo praticamente infinito quando se trata de escalas humanas. Muitos de nós nos preocupamos em observar as maiores partes do cosmo, enquanto outros buscam entender as minúsculas coisas que se espalham por aí. Contudo, a maior parte daqueles que se dedicam a entender os mistérios da existência aplica continuamente seu tempo de vida quantificando ou encontrando meios de quantificar essas parcelas do universo, a fim de entender melhor a realidade em que estamos inseridos.
-
- Organizar o universo em dados quantificáveis é provavelmente a tarefa mais antiga e intelectualmente desafiadora à qual a humanidade se propôs. Desde o início de nossa existência, somos compelidos a tentar entender o lugar onde nascemos e passamos a existir. A organização das parcelas da existência em dados pode parecer uma tarefa hercúlea e impossível, mas neste artigo gostaria de compartilhar alguns dos métodos que a humanidade encontrou para facilitar esse processo.
-
-
-# 1. Tipos de Variáveis:
+## 1. Tipos de Variáveis:
  Quando se trata de estatística, a organização dos dados é a parte mais crucial do trabalho, visto que a primeira etapa dessa empreitada é organizar os dados a serem analisados. Por esse motivo, é essencial atentarmos ao cerne do modelo organizacional da AED: os tipos de variáveis. Ao construirmos ou analisarmos um banco de dados, é fundamental entender que as informações devem ser armazenadas de maneiras específicas. Estudar as técnicas apropriadas para resumir essas informações é o passo primordial para se tornar um estatístico ou alguém que trabalha com dados. O salário de uma pessoa, sua altura, número de filhos, grau de instrução escolar e seu estado civil são exemplos de variáveis que podemos utilizar como base de informações sobre um indivíduo. Estas variáveis seguem um modelo organizacional e são divididas em dois grandes tipos, as Variáveis Categóricas e as Variáveis Numéricas, que, por sua vez, são divididas em dois subgrupos, os quais nos aprofundaremos a seguir:
 
 ## 1.1 Variáveis Categóricas:
@@ -232,8 +233,5 @@ Converter uma variável de uma escala para outra pode ser desafiador, pois a con
 | 05  | Extremamente insatisfeito    | 1                           |
 
 **Subgrupo:** **Ordinal para Intervalar**.
-**Referências:**
 
-- Bussab, W. O. *Estatística Básica*.
-- ARA, A. B.; MUSETTI, A. V.; SCHNEIDERMAN, B. *Introdução à Estatística*. São Paulo: Editora Blucher; Instituto Mauá de Tecnologia, 2003.
 
