@@ -209,14 +209,14 @@ Vamos comparar:
 Questionário de Satisfação no Trabalho  
 
  1. De 0 a 10, o quanto você está satisfeito com o seu trabalho?
-**( ) 0  ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5  ( ) 6  ( ) 7  ( ) 8  ( ) 9  ( ) 10**  
+>**( ) 0  ( ) 1  ( ) 2  ( ) 3  ( ) 4  ( ) 5  ( ) 6  ( ) 7  ( ) 8  ( ) 9  ( ) 10**  
 
  2. "Estou satisfeito com o meu trabalho."  
-- [ ] Discordo totalmente  
-- [ ] Discordo  
-- [ ] Nem concordo nem discordo  
-- [ ] Concordo  
-- [ ] Concordo totalmente
+- ( ) Discordo totalmente  
+- ( ) Discordo parcialmente 
+- ( ) Neutro  
+- ( ) Concordo  parcialmente
+- ( ) Concordo totalmente
 
 Levando em consideração que a diferença entre números não é tão clara neste contexto, é possível afirmar que se tratando do exemplo 01 um indivíduo ao responder este questionário terá dificuldade em quantificar seus sentimentos. No entando, quando utilizamos a escala Likert(exemplo 02) que utiliza respostas em níveis de satisfação torna-se possível captar de forma mais específica o que se deseja saber de um indvíduo.
 
