@@ -1,7 +1,7 @@
 
 
 # Uma breve reflexão
- Existimos em um universo de grandeza infinita quando se olha através de olhos humanos. Na história da construção da ciência e da matemática, muitos de nós nos preocupamos em estudar as maiores partes do cosmo, enquanto outros buscaram entender as minúsculas coisas que se espalham por aí. Contudo, a maior parte daqueles que se dedicaram a entender os mistérios da existência aplicaram continuamente seu tempo de vida quantificando ou encontrando meios de quantificar essas parcelas do universo, a fim de tentar entender melhor a realidade em que estamos inseridos.
+ Existimos em um universo de grandeza infinita quando o contemplamos através dos olhos humanos. Na história da construção da ciência e da matemática, muitos de nós nos preocupamos em estudar as maiores partes do cosmo, enquanto outros buscaram entender as minúsculas coisas que se espalham por aí. Contudo, a maior parte daqueles que se dedicaram a entender os mistérios da existência aplicaram continuamente seu tempo de vida quantificando ou encontrando meios de quantificar essas parcelas do universo, a fim de tentar entender melhor a realidade em que estamos inseridos.
 
  Organizar o universo em dados quantificáveis é provavelmente a tarefa mais antiga e intelectualmente desafiadora à qual a humanidade se propôs. Desde o início de nossa existência, somos compelidos a tentar entender o lugar onde nascemos e passamos a existir. A organização das parcelas da existência em dados pode parecer uma tarefa hercúlea e impossível, mas neste artigo gostaria de compartilhar alguns dos métodos e técnicas que a humanidade encontrou para facilitar esse processo.
 
