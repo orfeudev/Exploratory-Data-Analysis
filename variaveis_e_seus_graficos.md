@@ -10,14 +10,49 @@
 > 
 ---
 
-## 1. Tipos de Variáveis:
+## 1.0 Tipos de Variáveis:
  Quando se trata de estatística, a organização dos dados é a parte mais crucial do trabalho, visto que a primeira etapa dessa empreitada é organizar os dados a serem analisados. Por esse motivo, é essencial atentarmos ao cerne do modelo organizacional da AED: os tipos de variáveis. Ao construirmos ou analisarmos um banco de dados, é fundamental entender que as informações devem ser armazenadas de maneiras específicas. Estudar as técnicas apropriadas para resumir essas informações é o passo primordial para se tornar um estatístico ou alguém que trabalha com dados. O salário de uma pessoa, sua altura, número de filhos, grau de instrução escolar e seu estado civil são exemplos de variáveis que podemos utilizar como base de informações sobre um indivíduo. Estas variáveis seguem um modelo organizacional e são divididas em dois grandes tipos, as Variáveis Categóricas e as Variáveis Numéricas, que, por sua vez, são divididas em dois subgrupos, os quais nos aprofundaremos a seguir:
 
 ## 1.1 Variáveis Categóricas:
 
- As Variáveis Categóricas, que também podem ser chamadas de Qualitativas, representam atributos ou qualidades dos indivíduos pesquisados, como grau de instrução, estado civil, cor dos olhos, cabelo ou etnia. Esse tipo de variável é subdividido em dois subgrupos: nominais e ordinais, para facilitar a organização e análise dos dados. Veremos esses subtipos a seguir:
+ As variáveis categóricas, que também podem ser chamadas de Qualitativas, representam **atributos** ou qualidades dos indivíduos pesquisados, como grau de instrução, estado civil, cor dos olhos, cabelo ou etnia. Esse tipo de variável é subdividido em dois tipos: nominais e ordinais, para facilitar a organização e análise dos dados. 
 
-### 1.1.1 Variáveis Categóricas Nominais:
+### 1.2 Atributos e suas classificações:
+ Partindo do ponto de que as variáveis categóricas lidam com os atributos do indivíduo, é possível ainda classificar estes atributos em dois subtipos:  **classificação Dicotômica** e **classificação Policotômica**
+
+### 1.2.1 Classificação Dicotômica ou Dicotomia
+
+ Dentro do escopo das variáveis categóricas nominais, existe um subtipo de variável cujo valor de suas possíveis realizações podem assumir apenas **duas categorias**. As chamamos de variáveis dicotômicas e o seu exemplo mais simples incluem perguntas que só podem ser respondidas com "sim" ou "não". Normalmente, os valores assumidos em suas possíveis realizações são mútuamente exclusivos.
+
+### Exemplo:
+
+| ID  | Aprovado | Completou o curso |
+| --- | -------- | ----------------- |
+| 01  | Sim      | Não               |
+| 02  | Não      | Sim               |
+| 03  | Não      | Não               |
+| 04  | Sim      | Sim               |
+| 05  | Sim      | Não               |
+
+**Subgrupo:** **Nominais**.
+### 1.2.2 Classificação Múltipla ou Policotômica
+    Quando as possíveis realizações se subdividem em mais de duas subclasses. Um exemplo deste tipo de classificação é o estado civíl de um indivíduo.
+
+### Exemplo:
+
+| ID  | Estado civíl | Grau de escolaridade |
+| --- | ------------ | -------------------- |
+| 01  |  Solteiro    |  Ensino médio        |
+| 02  |  Casado      | Ensino médio         |
+| 03  |  Solteiro    | Graduação incompleta |
+| 04  |  Divorciado  | Graduado             |
+| 05  |  Casado      | Pós-graduação        |
+    
+---
+
+ **Subgrupo:** **Nominais** e **Ordinais**.
+
+### 1.3.1 Variáveis Categóricas Nominais:
 
  As variáveis categóricas nominais expressam atributos que não possuem qualquer tipo de ordenação em suas categorias. Alguns exemplos que podemos citar são gênero, cor dos olhos, estado civil, condição de saúde.
 
@@ -29,9 +64,9 @@
 | 04  | Não-Binário | Casado       | Artista                |
 
  Não existe uma hierarquia ou ordenação entre as categorias dessas variáveis.  
- A variável ID é considerada uma variável categórica nominal.
 
-### 1.1.2 Variáveis Categóricas Ordinais:
+
+### 1.3.2 Variáveis Categóricas Ordinais:
 
  As variáveis categóricas ordinais são aquelas que possuem uma ordem natural ou hierarquia entre suas categorias. Os exemplos deste tipo de variável incluem escolaridade, classe social, grau de satisfação e tamanho de roupa.
 
@@ -43,7 +78,7 @@
 | 04  | Graduação incompleta| Insatisfeito        | Menos de 1 ano       |
 
  É possível observar hierarquia e/ou ordenação entre as categorias dessas variáveis.  
- A variável ID não é uma variável categórica ordinal.
+ID trata-se apenas da identificação da unidade amostral
 
 ## 1.2 Variáveis Numéricas:
 
@@ -61,7 +96,6 @@
 | 04  | 0                | 0                | 5                  |
 
  Não existe a possibilidade de valores fracionados ou decimais entre as categorias dessas variáveis.  
- A variável ID não é uma variável numérica discreta.
 
 ### 1.2.2 Variáveis Numéricas Contínuas:
 
@@ -75,36 +109,8 @@
 | 04  | 155.8       | 55.0      | 7.5            |
 
  É possível ter valores fracionados ou decimais entre as categorias dessas variáveis.  
- A variável ID não é uma variável numérica contínua.
+ ID trata-se apenas da identificação da unidade amostral.
 
-## 2. Tipos especiais de variáveis
-### 2.1 A variável ID
- A variável ID é categórica, mais especificamente, uma variável categórica nominal. Embora frequentemente representada por números, ela não tem valor quantitativo nem hierarquia. Sua principal função é identificar de maneira única os registros no conjunto de dados, sem ser usada em análises matemáticas ou quantitativas. Mesmo sendo numérica, a variável ID é categórica, pois seus valores são apenas rótulos para distinguir registros, sem significado numérico ou ordem.
- 
- 
- 
-**Subgrupo:** **Nominais**.
- 
----
-
-### 2.2 Variáveis Dicotômicas
-
- Dentro do escopo das variáveis categóricas nominais, existe um subtipo de variável cujo valor de suas possíveis realizações podem assumir apenas **duas categorias**. As chamamos de variáveis dicotômicas e o seu exemplo mais simples incluem perguntas que só podem ser respondidas com "sim" ou "não". Normalmente, os valores assumidos em suas possíveis realizações são mútuamente exclusivos.
-
-### Exemplo:
-
-| ID  | Aprovado | Completou o curso |
-| --- | -------- | ----------------- |
-| 01  | Sim      | Não               |
-| 02  | Não      | Sim               |
-| 03  | Não      | Não               |
-| 04  | Sim      | Sim               |
-| 05  | Sim      | Não               |
-
-
-**Subgrupo:** **Nominais**.
-
----
 
 ---
 ## 3. Escalas de medidas:
@@ -112,7 +118,7 @@
 
 ---
 ### 3.1 Escala Nominal
- É qualitativa é a mais básica das escalas de medidas. As realizações representam diferentes categorias, não há hierarquia ou relação entre estes valores. Não é possível fazer cálculos ou comparações quantitativas.  
+ É qualitativa é a mais básica das escalas de medidas. As realizações representam diferentes categorias, não há hierarquia ou relação entre estes valores.   
 **Exemplos:** Cores favoritas, gênero, estado civil.
 
 | ID  | Cor Favorita | Gênero     | Estado Civil |
@@ -124,9 +130,7 @@
 
 ---
 
-**Gráficos recomendados:**
-- Gráfico de barras
-- Gráfico de pizza
+**Os gráficos recomendados para este tipo de escala são o de barras e o de pizza**
 
 ---
 
@@ -143,10 +147,7 @@
 
 ---
 
-**Gráficos recomendados:**
-- Gráfico de barras
-- Gráfico de barras horizontais
-- Box plot (para distribuições de dados ordinais)
+**Os gráficos recomendados para este tipo de escala são o de barras, o de barras horizontais e o boxplot(para distribuições de dados ordinais)**
 
 ---
 
@@ -163,10 +164,7 @@
 
 ---
 
-**Gráficos recomendados:**
-- Gráfico de linhas
-- Gráfico de barras
-- Histograma
+****Os gráficos recomendados para este tipo de escala são o de linhas, o de barras e o histograma**
 
 ---
 
@@ -182,11 +180,7 @@
 | 04  | 155.8       | 55.0      | 7.5            |
 
 
-**Gráficos recomendados:**
-- Gráfico de barras
-- Gráfico de linhas
-- Histograma
-- Box plot
+**Os gráficos recomendados para este tipo de escala são o de barras, o de linhas, o histograma e o boxplot**
 
 ---
 
